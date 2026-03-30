@@ -8,5 +8,3 @@ public class ProjetInfo_S2 {
     }
 }
 //weshhhh
-
-//remi so good
