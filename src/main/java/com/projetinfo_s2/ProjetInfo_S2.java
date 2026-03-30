@@ -7,3 +7,6 @@ public class ProjetInfo_S2 {
         System.out.println("Hello World!");
     }
 }
+/*  
+bla bla bla bleu bleu bleu blu blu blu
+*/
