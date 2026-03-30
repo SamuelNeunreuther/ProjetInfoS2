@@ -7,6 +7,3 @@ public class ProjetInfo_S2 {
         System.out.println("PROEDGAR69");
     }
 }
-/*  
-bla bla bla bleu bleu bleu blu blu blu
-*/
