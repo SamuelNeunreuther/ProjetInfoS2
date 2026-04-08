@@ -19,6 +19,10 @@ public class Sol {
     public void setRevetement(Revetement revetement) {
         this.revetement = revetement;
     }
+
+    public Sol(Revetement revetement) {
+        this.revetement = revetement;
+    }
     
     
 }
