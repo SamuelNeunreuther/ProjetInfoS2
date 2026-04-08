@@ -38,6 +38,7 @@ public class Niveau {
         this.idNiveau = idNiveau;
         this.nbAppart = nbAppart;
         this.hauteur = hauteur;
+        this.appartList = null;
     }
    
 public void addAppart(Appartement appartement){
