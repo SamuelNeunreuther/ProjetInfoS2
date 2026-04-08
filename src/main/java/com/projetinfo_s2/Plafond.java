@@ -19,6 +19,10 @@ public class Plafond {
     public void setRevetement(Revetement revetement) {
         this.revetement = revetement;
     }
+
+    public Plafond(Revetement revetement) {
+        this.revetement = revetement;
+    }
     
     
 }
