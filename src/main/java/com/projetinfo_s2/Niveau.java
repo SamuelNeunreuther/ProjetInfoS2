@@ -1,18 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.projetinfo_s2;
 
-/**
- *
- * @author obrutin01
- */
+import java.util.ArrayList;
+
+
 public class Niveau {
     private int idNiveau;
     private int nbAppart;
     private float hauteur;
-
+    private ArrayList<Appartement> appartList = new ArrayList<>();
+    
     public int getIdNiveau() {
         return idNiveau;
     }
@@ -42,6 +39,9 @@ public class Niveau {
         this.nbAppart = nbAppart;
         this.hauteur = hauteur;
     }
-    
-    // il faut faire la methode add appart
+   
+public void addAppart(Appartement appartement){
+        this.appartList.add(appartement);
+        this.nbAppart++;
+    }
 }
