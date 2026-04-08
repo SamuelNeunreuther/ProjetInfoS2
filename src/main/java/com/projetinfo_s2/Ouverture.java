@@ -13,6 +13,7 @@ public class Ouverture {
     private float largeur;
     private float longueur;
     private float hauteur;
+    private String materiau;
 
     public Mur getMur() {
         return mur;
@@ -46,11 +47,20 @@ public class Ouverture {
         this.hauteur = hauteur;
     }
 
-    public Ouverture(Mur mur, float largeur, float longueur, float hauteur) {
+    public String getMateriau() {
+        return materiau;
+    }
+
+    public void setMateriau(String materiau) {
+        this.materiau = materiau;
+    }
+
+    public Ouverture(Mur mur, float largeur, float longueur, float hauteur, String materiau) {
         this.mur = mur;
         this.largeur = largeur;
         this.longueur = longueur;
         this.hauteur = hauteur;
+        this.materiau = materiau;
     }
     
     
