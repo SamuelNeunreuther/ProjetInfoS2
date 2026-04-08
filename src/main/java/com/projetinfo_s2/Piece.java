@@ -54,8 +54,8 @@ public class Piece {
     public void setSol(Sol sol) {
         this.sol = sol;
     }
-    public float Surface(){
-        
-    }
+/*    public float Surface(){
+        return (largeur*longueur);
+    }*/
     
 }
