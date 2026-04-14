@@ -1,19 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.projetinfo_s2;
 
-/**
- *
- * @author obrutin01
- */
 public class Revetement {
     
     private int idRev;
     private String type;
     private float prixUnitaire;
-
+    
+    public Revetement(int idRev, String type, float prixUnitaire) {
+        this.idRev = idRev;
+        this.type = type;
+        this.prixUnitaire = prixUnitaire;
+    }
+    
     public int getIdRev() {
         return idRev;
     }
@@ -37,13 +36,4 @@ public class Revetement {
     public void setPrixUnitaire(float prixUnitaire) {
         this.prixUnitaire = prixUnitaire;
     }
-
-    public Revetement(int idRev, String type, float prixUnitaire) {
-        this.idRev = idRev;
-        this.type = type;
-        this.prixUnitaire = prixUnitaire;
-    }
-    
-    
-    
 }

@@ -1,20 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.projetinfo_s2;
 
-/**
- *
- * @author obrutin01
- */
 public class Ouverture {
     private Mur mur;
     private float largeur;
     private float longueur;
     private float hauteur;
     private String materiau;
-
+    
+    public Ouverture(Mur mur, float largeur, float longueur, float hauteur, String materiau) {
+        this.mur = mur;
+        this.largeur = largeur;
+        this.longueur = longueur;
+        this.hauteur = hauteur;
+        this.materiau = materiau;
+    }
+    
     public Mur getMur() {
         return mur;
     }
@@ -55,13 +56,4 @@ public class Ouverture {
         this.materiau = materiau;
     }
 
-    public Ouverture(Mur mur, float largeur, float longueur, float hauteur, String materiau) {
-        this.mur = mur;
-        this.largeur = largeur;
-        this.longueur = longueur;
-        this.hauteur = hauteur;
-        this.materiau = materiau;
-    }
-    
-    
 }

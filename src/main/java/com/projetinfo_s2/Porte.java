@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.projetinfo_s2;
 
-/**
- *
- * @author obrutin01
- */
 public class Porte extends Ouverture{
-    
+        
+    public Porte(Mur mur, float largeur, float longueur, String materiau){
+        super(mur, largeur, longueur, 0, materiau);
+    }
 }

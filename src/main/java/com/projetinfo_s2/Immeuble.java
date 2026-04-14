@@ -18,4 +18,20 @@ public class Immeuble extends Batiment{
         super.setNbNiveaux(super.getNbNiveaux() + 1);
     }
     
+    @Override
+    public String[] afficher(){
+        String[] infos = new String[2];
+        infos[0] = "Immeuble "+super.getBatID();
+        infos[1] = "Nombre de niveaux : "+super.getNbNiveaux();
+        return infos;
+    }
+
+    public ArrayList<Niveau> getNiveauList() {
+        return niveauList;
+    }
+
+    public void setNiveauList(ArrayList<Niveau> niveauList) {
+        this.niveauList = niveauList;
+    }
+    
 }

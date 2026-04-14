@@ -20,6 +20,14 @@ public class Maison extends Batiment {
         this.pieceList.add(piece);
         this.nbPiece++;
     }
+    
+    @Override
+    public String[] afficher(){
+        String[] infos = new String[2];
+        infos[0] = "Maison "+super.getBatID();
+        infos[1] = "Nombre de pieces : "+this.nbPiece;
+        return infos;
+    }
 
     public ArrayList<Piece> getPieceList() {
         return pieceList;
@@ -28,6 +36,12 @@ public class Maison extends Batiment {
     public void setPieceList(ArrayList<Piece> pieceList) {
         this.pieceList = pieceList;
     }
-    
-    
+
+    public int getNbPiece() {
+        return nbPiece;
+    }
+
+    public void setNbPiece(int nbPiece) {
+        this.nbPiece = nbPiece;
+    }  
 }

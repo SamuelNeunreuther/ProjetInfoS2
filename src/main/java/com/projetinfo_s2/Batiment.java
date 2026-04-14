@@ -12,6 +12,10 @@ public class Batiment {
         this.type=type;
     }
     
+    public String[] afficher(){ 
+        return null;
+    }
+    
     public void setID(int id){
         this.batID=id;
     }

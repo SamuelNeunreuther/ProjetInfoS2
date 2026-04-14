@@ -1,0 +1,16 @@
+11;parquet contrecolle;20
+12;parquet massif;30
+13;parquet stratifie;8
+14;linoleum;12
+15;carrelage sol;30
+16;moquette;5
+17;PVC;20
+21;carrelage mur;15
+22;habillage bois;25
+23;papier peint mur;1
+24;peinture mur;15
+25;tissus mur;50
+31;peinture plafond;15
+32;dalle;30
+33;papier peint plafond;1
+34;tissus plafond;50
