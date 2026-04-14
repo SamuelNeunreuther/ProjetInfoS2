@@ -10,9 +10,10 @@ public class Maison extends Batiment {
     
     public Maison(int id){
         super(id, "maison", 1);
+        //toutes les maisons ont comme type "maison et ont 1 etage
         this.pieceList = null;
         this.nbPiece = 0;
-        
+        //pour l'instant pas de piece, on initialise ici et on incremente dans addPiece
     }
     
     public void addPiece(Piece piece){
